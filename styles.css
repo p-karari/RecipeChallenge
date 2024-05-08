@@ -1,0 +1,86 @@
+body {
+    /* overflow: hidden; */
+    background-color: rgba(244, 168, 180, 0.274);
+    
+}
+/* 
+@font-face {
+    font-family: Young-serif;
+    src:url(assets/fonts/outfit/OFL.txt) format('txt'),
+        url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format('ttf');
+} */
+
+img {
+    object-fit: contain;
+    max-width: 92%;
+    border-radius: 13px;
+    margin: 15px;
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype'); 
+  }
+
+.body_ {
+    width: 35rem;
+    margin: 50px 350px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 13px;
+    padding: 18px;
+    color: rgb(71, 65, 65);
+    font-size: 0.6rem;
+    font-family: 'YoungSerif', serif;
+}
+
+.body__ {
+    background-color: white;
+}
+
+h3 {
+    color: rgba(138, 57, 57, 0.829);
+}
+
+h4 {
+    color: rgba(158, 79, 79, 0.63);
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+ul li{
+    margin: 3px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 10px;
+}
+
+table tr td{
+    border-bottom: 1px solid rgb(170, 170, 170);
+    padding: 3px 15px; 
+}
+
+.coloured {
+    color: rgba(138, 57, 57, 0.829);
+    font-weight: 800;
+}
+
+.preparation {
+    background-color: rgba(252, 199, 208, 0.3);
+    padding: 6px;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'YoungSerif', serif;
+    padding: 15px;
+}
